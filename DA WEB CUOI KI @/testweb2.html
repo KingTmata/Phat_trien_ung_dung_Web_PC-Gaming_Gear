@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCZONE - Máy Tính & Linh Kiện PC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="test-optimized.css">
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar">
+  <div class="nav-inner">
+
+    <!-- Logo -->
+    <a class="logo" href="#">PC<span>ZONE</span></a>
+
+    <!-- Menu -->
+    <ul class="nav-links">
+      <li><a href="#" class="active">Trang chủ</a></li>
+
+      <!-- DANH MỤC có mega menu -->
+      <li class="has-mega" id="megaTrigger">
+        <a href="#">Danh mục ▾</a>
+
+        <!-- MEGA MENU -->
+        <div class="mega-menu" id="megaMenu">
+          <div class="mega-inner">
+
+            <!-- CỘT 1: Laptop & PC -->
+            <div class="mega-col">
+              <div class="mega-col-title">
+                <span class="mega-icon">💻</span> Laptop & PC
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Laptop</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Laptop Văn Phòng</span>
+                  
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Laptop Gaming</span>
+                  
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Laptop Đồ Họa</span>
+                  
+                </a>
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">PC Bộ</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">PC Gaming</span>
+                 
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">PC Văn Phòng</span>
+                  
+                </a>
+              </div>
+            </div>
+
+            <!-- DIVIDER -->
+            <div class="mega-divider"></div>
+
+            <!-- CỘT 2: Linh Kiện -->
+            <div class="mega-col">
+              <div class="mega-col-title">
+                <span class="mega-icon">⚙️</span> Linh Kiện
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Xử lý & Bộ nhớ</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">CPU</span>
+         
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">RAM</span>
+   
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">SSD / HDD</span>
+                
+                </a>
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Card & Bo mạch</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">GPU (Card đồ họa)</span>
+             
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Mainboard</span>
+  
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">PSU (Nguồn)</span>
+               
+                </a>
+              </div>
+            </div>
+
+            <!-- DIVIDER -->
+            <div class="mega-divider"></div>
+
+            <!-- CỘT 3: Phụ Kiện -->
+            <div class="mega-col">
+              <div class="mega-col-title">
+                <span class="mega-icon">🖱️</span> Phụ Kiện
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Ngoại vi</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Màn Hình</span>
+               
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Bàn Phím</span>
+              
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Chuột Gaming</span>
+               
+                </a>
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Âm thanh & Case</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Tai nghe</span>
+            
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Case & Tản nhiệt</span>
+   
+                </a>
+              </div>
+            </div>
+
+          </div><!-- end mega-inner -->
+        </div><!-- end mega-menu -->
+
+      </li><!-- end has-mega -->
+
+      <li><a href="#">Build PC</a></li>
+    </ul>
+
+    <!-- Thanh tìm kiếm -->
+    <div class="search-wrap">
+      <input class="search-input" type="text" placeholder="Tìm kiếm sản phẩm, thương hiệu...">
+      <button class="search-btn">
+        <svg viewBox="0 0 24 24" stroke-width="2.5" fill="none" stroke="white"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </div>
+
+    <!-- Icon giỏ hàng + avatar -->
+    <div class="nav-actions">
+
+      <!-- Giỏ hàng -->
+      <a class="icon-btn" href="#">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        <span class="badge">3</span>
+      </a>
+
+      <!-- Avatar → mở login modal -->
+      <button class="icon-btn avatar-btn" id="avatarBtn" title="Đăng nhập">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </button>
+
+    </div>
+  </div>
+</nav>
+
+
+<!-- ========== MAIN: BANNER + SIDEBAR ========== -->
+<div class="main-layout">
+
+  <!-- BÊN TRÁI: HERO BANNER -->
+  <div class="hero-banner">
+
+    <!-- Slide 1 -->
+    <div class="slide slide-1 active">
+      <div class="slide-content">
+        <div class="badge"><span class="dot dot-red"></span> HOT DEAL</div>
+        <h1>RTX 4070 Ti<br><span class="cyan">GAMING PRO</span></h1>
+        <p>Hiệu năng đỉnh cao — 240+ FPS tại 1080p Ultra</p>
+        <div class="chips1">
+          <span>12GB GDDR6X</span><span>DLSS 3 AI</span><span>PCIe 4.0</span>
+        </div>
+        <div class="price-row">
+          <span class="price">28.990.000₫</span>
+          <span class="price-old">32.500.000₫</span>
+          <span class="price-tag">-11%</span>
+        </div>
+        <div class="actions">
+          <a href="#" class="btn-buy">🛒 Mua ngay</a>
+          <a href="#" class="btn-outline">Build từ cấu hình này</a>
+        </div>
+      </div>
+      <div class="slide-img">
+        <img src="kv-pd.png" alt="RTX 4070 Ti" class="float">
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide slide-2">
+      <div class="slide-content">
+        <div class="badge"><span class="dot dot-green"></span> MỚI RA MẮT</div>
+        <h1>AMD Ryzen 9<br><span class="amber">7950X3D</span></h1>
+        <p>16 nhân / 32 luồng — 144MB 3D V-Cache</p>
+        <div class="chips2">
+          <span>16C / 32T</span><span>5.7GHz Boost</span><span>AM5 Socket</span>
+        </div>
+        <div class="price-row">
+          <span class="price" style="color:#d97706">18.500.000₫</span>
+          <span class="price-old">21.000.000₫</span>
+          <span class="price-tag">-12%</span>
+        </div>
+        <div class="actions">
+          <a href="#" class="btn-buy" style="background:#d97706">🛒 Mua ngay</a>
+          <a href="#" class="btn-outline">Xem chi tiết</a>
+        </div>
+      </div>
+      <div class="slide-img">
+        <img src="1761310-amd-ryzen-9-7000-series-PIB-angle-1260x709-1.webp" alt="Ryzen 9 7950X3D" class="float">
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide slide-3">
+      <div class="slide-content">
+        <div class="badge"><span class="dot dot-purple"></span> BỘ PC GAMING</div>
+        <h1>PC Gaming<br><span class="purple">Full Build</span></h1>
+        <p>i7-14700K · RTX 4070 · 32GB DDR5 · 1TB NVMe</p>
+        <div class="chips3">
+          <span>Intel Core i7</span><span>RTX 4070</span><span>32GB DDR5</span>
+        </div>
+        <div class="price-row">
+          <span class="price" style="color:#7c3aed">45.990.000₫</span>
+          <span class="price-old">52.000.000₫</span>
+          <span class="price-tag">-12%</span>
+        </div>
+        <div class="actions">
+          <a href="#" class="btn-buy" style="background:#7c3aed">🛒 Mua ngay</a>
+          <a href="#" class="btn-outline">Tùy chỉnh cấu hình</a>
+        </div>
+      </div>
+      <div class="slide-img">
+        <img src="gaming-computer-isolated-transparent-background_736261-3022-Photoroom.png" alt="PC Gaming Full Build" class="float">
+      </div>
+    </div>
+
+    <!-- Nút prev / next -->
+    <button class="arrow arrow-left" id="prevBtn">&#8249;</button>
+    <button class="arrow arrow-right" id="nextBtn">&#8250;</button>
+
+    <!-- Dots + số trang -->
+    <div class="dot-row">
+      <span class="dot-nav active" data-i="0"></span>
+      <span class="dot-nav" data-i="1"></span>
+      <span class="dot-nav" data-i="2"></span>
+      <span class="slide-num" id="slideNum">1 / 3</span>
+    </div>
+
+    <!-- Thanh tiến trình -->
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+
+  <!-- BÊN PHẢI: SIDEBAR CÔNG CỤ -->
+  <aside class="sidebar" id="sidebar">
+
+    <!-- Nút toggle ở đầu sidebar -->
+    <button class="sidebar-toggle" id="sidebarToggle" title="Thu/mở">
+      <svg viewBox="0 0 24 24" stroke-width="2.5" fill="none" stroke="currentColor">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+
+    <!-- Danh sách công cụ -->
+    <!-- Mỗi tool-card: icon luôn hiện, text ẩn khi thu -->
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-cyan">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#0097a7"><path d="M12 2a7 7 0 017 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 01-1 1H9a1 1 0 01-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 017-7z"/><line x1="9" y1="21" x2="15" y2="21"/><line x1="9" y1="18" x2="15" y2="18"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">Build PC AI</div>
+        <div class="tool-desc">Gợi ý cấu hình theo ngân sách</div>
+      </div>
+    </a>
+
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-yellow">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#d97706"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M5.34 18.66l-1.41 1.41M22 12h-2M4 12H2M19.07 19.07l-1.41-1.41M5.34 5.34L3.93 3.93"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">Build Thủ Công</div>
+        <div class="tool-desc">Tự chọn, kiểm tra tương thích</div>
+      </div>
+    </a>
+
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-purple">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#7c3aed"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">FPS Calculator</div>
+        <div class="tool-desc">Ước tính FPS theo cấu hình</div>
+      </div>
+    </a>
+
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-green">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#059669"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">So Sánh</div>
+        <div class="tool-desc">So sánh hiệu năng sản phẩm</div>
+      </div>
+    </a>
+
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-red">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#dc2626"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">Khuyến Mãi Hot</div>
+        <div class="tool-desc">Deal giá tốt mỗi ngày</div>
+      </div>
+    </a>
+
+  </aside>
+</div><!-- end main-layout -->
+
+
+<!-- ========== LOGIN MODAL ========== -->
+<div class="modal-overlay" id="loginModal">
+  <div class="modal-box">
+
+    <button class="modal-close" id="modalClose">✕</button>
+
+    <div class="modal-logo">PC<span>ZONE</span></div>
+    <p class="modal-sub">Đăng nhập để tiếp tục mua sắm</p>
+
+    <div id="loginError" class="login-error" style="display:none"></div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" id="loginEmail" placeholder="email@example.com">
+    </div>
+
+    <div class="form-group">
+      <label>Mật khẩu</label>
+      <input type="password" id="loginPassword" placeholder="••••••••">
+    </div>
+
+    <button class="btn-login" id="loginBtn">Đăng nhập</button>
+
+    <p class="modal-note">Chưa có tài khoản? <a href="#">Đăng ký ngay</a></p>
+
+    <!-- Test accounts hint -->
+    <div class="test-hint">
+      <strong>Tài khoản thử:</strong><br>
+      👤 admin@pczone.vn / admin123 → Admin<br>
+      👤 user@pczone.vn / user123 → Khách hàng
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Backdrop mờ khi mở mega menu -->
+<div class="mega-backdrop" id="megaBackdrop"></div>
+
+<script src="test.js"></script>
+</body>
+</html>
