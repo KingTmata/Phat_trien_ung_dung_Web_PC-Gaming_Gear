@@ -1,1 +1,109 @@
 
+Với giao diện như ảnh, mình khuyên **chia theo khu vực giao diện (section)** thay vì chia theo trang. Vì đây là một **trang chủ dài (landing page/e-commerce homepage)**, chia theo section sẽ cân bằng hơn và ai cũng làm cả HTML lẫn CSS.
+
+## Người 1: Header + Hero Banner
+
+### HTML
+
+* Logo
+* Thanh menu điều hướng
+* Ô tìm kiếm
+* Icon giỏ hàng, tài khoản
+* Banner chính RTX 4070 Ti
+
+### CSS
+
+* Navbar
+* Hiệu ứng hover menu
+* Căn chỉnh banner
+* Nút "Mua ngay", "Build từ cấu hình này"
+
+### Kết quả
+
+Làm xong phần từ đầu trang đến hết banner lớn.
+
+---
+
+## Người 2: Công cụ nhanh + Sản phẩm bán chạy
+
+### HTML
+
+* Sidebar "Công cụ nhanh"
+* Section "Sản phẩm bán chạy"
+* Các card sản phẩm
+
+### CSS
+
+* Thiết kế card
+* Bo góc
+* Đổ bóng
+* Căn lưới sản phẩm bằng Flexbox/Grid
+
+### Kết quả
+
+Làm toàn bộ khu vực bên phải banner và phần sản phẩm bán chạy.
+
+---
+
+## Người 3: Build theo nhu cầu + Footer
+
+### HTML
+
+* Gaming
+* Streaming
+* Design/Edit
+* Workstation
+* Văn phòng
+* Footer
+
+### CSS
+
+* Các card nhu cầu
+* Icon
+* Khoảng cách
+* Footer
+
+### Kết quả
+
+Làm toàn bộ phần dưới website.
+
+---
+
+## Công việc chung của cả nhóm
+
+### Trước khi code
+
+* Thống nhất màu chủ đạo:
+
+  * Xanh ngọc (#2DD4BF hoặc tương tự)
+  * Trắng
+  * Xám nhạt
+
+* Thống nhất:
+
+  * Font chữ
+  * Kích thước card
+  * Border-radius (ví dụ 12px)
+  * Box-shadow
+
+### Sau khi code
+
+* Ghép code
+* Kiểm thử:
+
+  * Link hoạt động đúng
+  * Không vỡ layout
+  * Khoảng cách đồng đều
+  * Responsive cơ bản
+
+---
+
+### Đánh giá độ khó
+
+| Người                       | Độ khó |
+| --------------------------- | ------ |
+| 1 (Header + Banner)         | ⭐⭐⭐⭐   |
+| 2 (Sidebar + Product Cards) | ⭐⭐⭐⭐   |
+| 3 (Nhu cầu + Footer)        | ⭐⭐⭐    |
+
+Cách chia này khá cân bằng cho nhóm 3 người mới học HTML/CSS vì **cả 3 đều phải viết HTML và CSS**, không ai bị giao toàn việc thiết kế hay toàn việc code.
