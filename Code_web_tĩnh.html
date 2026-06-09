@@ -1,14 +1,727 @@
 <!DOCTYPE html>
-<html>  
+<html lang="vi">
 <head>
-    bfiwhlevhfbffffffffffffwiugbufvb@#O$
-    <title>PTW-KY3</title>
-    <meta charset="UTF-8">
-    <meta name="descr
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCZONE - Máy Tính & Linh Kiện PC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="test-optimized.css">
 </head>
 <body>
-    <h1>Hello</h1>
+
+<nav class="navbar">
+  <div class="nav-inner">
+
+    <a class="logo" href="#">PC<span>ZONE</span></a>
+
+    <ul class="nav-links">
+      <li><a href="#" class="active">Trang chủ</a></li>
+
+      <li class="has-mega" id="megaTrigger">
+        <a href="#">Danh mục ▾</a>
+
+        <div class="mega-menu" id="megaMenu">
+          <div class="mega-inner">
+
+            <div class="mega-col">
+              <div class="mega-col-title">
+                <span class="mega-icon">💻</span> Laptop & PC
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Laptop</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Laptop Văn Phòng</span>
+                  
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Laptop Gaming</span>
+                  
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Laptop Đồ Họa</span>
+                  
+                </a>
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">PC Bộ</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">PC Gaming</span>
+                 
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">PC Văn Phòng</span>
+                  
+                </a>
+              </div>
+            </div>
+
+            <div class="mega-divider"></div>
+            <div class="mega-col">
+              <div class="mega-col-title">
+                <span class="mega-icon">⚙️</span> Linh Kiện
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Xử lý & Bộ nhớ</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">CPU</span>
+         
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">RAM</span>
+   
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">SSD / HDD</span>
+                
+                </a>
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Card & Bo mạch</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">GPU (Card đồ họa)</span>
+             
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Mainboard</span>
+  
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">PSU (Nguồn)</span>
+               
+                </a>
+              </div>
+            </div>
+
+            <div class="mega-divider"></div>
+            <div class="mega-col">
+              <div class="mega-col-title">
+                <span class="mega-icon">🖱️</span> Phụ Kiện
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Ngoại vi</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Màn Hình</span>
+               
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Bàn Phím</span>
+              
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Chuột Gaming</span>
+               
+                </a>
+              </div>
+              <div class="mega-group">
+                <div class="mega-group-label">Âm thanh & Case</div>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Tai nghe</span>
+            
+                </a>
+                <a href="#" class="mega-item">
+                  <span class="item-name">Case & Tản nhiệt</span>
+   
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </li>
+
+      <li><a href="#">Build PC</a></li>
+    </ul>
+
+    <div class="search-wrap">
+      <input class="search-input" type="text" placeholder="Tìm kiếm sản phẩm, thương hiệu...">
+      <button class="search-btn">
+        <svg viewBox="0 0 24 24" stroke-width="2.5" fill="none" stroke="white"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </div>
+
+    <div class="nav-actions">
+      <a class="icon-btn" href="#">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        <span class="badge">3</span>
+      </a>
+
+      <button class="icon-btn avatar-btn" id="avatarBtn" title="Đăng nhập">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </button>
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="main-layout">
+
+  <div class="hero-banner">
+
+    <div class="slide slide-1 active">
+      <div class="slide-content">
+        <div class="badge"><span class="dot dot-red"></span> HOT DEAL</div>
+        <h1>RTX 4070 Ti<br><span class="cyan">GAMING PRO</span></h1>
+        <p>Hiệu năng đỉnh cao — 240+ FPS tại 1080p Ultra</p>
+        <div class="chips1">
+          <span>12GB GDDR6X</span><span>DLSS 3 AI</span><span>PCIe 4.0</span>
+        </div>
+        <div class="price-row">
+          <span class="price">28.990.000₫</span>
+          <span class="price-old">32.500.000₫</span>
+          <span class="price-tag">-11%</span>
+        </div>
+        <div class="actions">
+          <a href="#" class="btn-buy">🛒 Mua ngay</a>
+          <a href="#" class="btn-outline">Build từ cấu hình này</a>
+        </div>
+      </div>
+      <div class="slide-img">
+        <img src="kv-pd.png" alt="RTX 4070 Ti" class="float">
+      </div>
+    </div>
+
+    <div class="slide slide-2">
+      <div class="slide-content">
+        <div class="badge"><span class="dot dot-green"></span> MỚI RA MẮT</div>
+        <h1>AMD Ryzen 9<br><span class="amber">7950X3D</span></h1>
+        <p>16 nhân / 32 luồng — 144MB 3D V-Cache</p>
+        <div class="chips2">
+          <span>16C / 32T</span><span>5.7GHz Boost</span><span>AM5 Socket</span>
+        </div>
+        <div class="price-row">
+          <span class="price" style="color:#d97706">18.500.000₫</span>
+          <span class="price-old">21.000.000₫</span>
+          <span class="price-tag">-12%</span>
+        </div>
+        <div class="actions">
+          <a href="#" class="btn-buy" style="background:#d97706">🛒 Mua ngay</a>
+          <a href="#" class="btn-outline">Xem chi tiết</a>
+        </div>
+      </div>
+      <div class="slide-img">
+        <img src="1761310-amd-ryzen-9-7000-series-PIB-angle-1260x709-1.webp" alt="Ryzen 9 7950X3D" class="float">
+      </div>
+    </div>
+
+    <div class="slide slide-3">
+      <div class="slide-content">
+        <div class="badge"><span class="dot dot-purple"></span> BỘ PC GAMING</div>
+        <h1>PC Gaming<br><span class="purple">Full Build</span></h1>
+        <p>i7-14700K · RTX 4070 · 32GB DDR5 · 1TB NVMe</p>
+        <div class="chips3">
+          <span>Intel Core i7</span><span>RTX 4070</span><span>32GB DDR5</span>
+        </div>
+        <div class="price-row">
+          <span class="price" style="color:#7c3aed">45.990.000₫</span>
+          <span class="price-old">52.000.000₫</span>
+          <span class="price-tag">-12%</span>
+        </div>
+        <div class="actions">
+          <a href="#" class="btn-buy" style="background:#7c3aed">🛒 Mua ngay</a>
+          <a href="#" class="btn-outline">Tùy chỉnh cấu hình</a>
+        </div>
+      </div>
+      <div class="slide-img">
+        <img src="PlayerThreePrime_hero_white_c2ccff44-3a3e-4f08-b08c-6cc1f5abb8de.png" width="400" height="300" alt="PC Gaming Full Build" class="float">
+      </div>
+    </div>
+
+    <button class="arrow arrow-left" id="prevBtn">&#8249;</button>
+    <button class="arrow arrow-right" id="nextBtn">&#8250;</button>
+
+    <div class="dot-row">
+      <span class="dot-nav active" data-i="0"></span>
+      <span class="dot-nav" data-i="1"></span>
+      <span class="dot-nav" data-i="2"></span>
+      <span class="slide-num" id="slideNum">1 / 3</span>
+    </div>
+
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+
+  <aside class="sidebar" id="sidebar">
+
+    <button class="sidebar-toggle" id="sidebarToggle" title="Thu/mở">
+      <svg viewBox="0 0 24 24" stroke-width="2.5" fill="none" stroke="currentColor">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-cyan">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#0097a7"><path d="M12 2a7 7 0 017 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 01-1 1H9a1 1 0 01-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 017-7z"/><line x1="9" y1="21" x2="15" y2="21"/><line x1="9" y1="18" x2="15" y2="18"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">Build PC AI</div>
+        <div class="tool-desc">Gợi ý cấu hình theo ngân sách</div>
+      </div>
+    </a>
+
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-yellow">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#d97706"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M5.34 18.66l-1.41 1.41M22 12h-2M4 12H2M19.07 19.07l-1.41-1.41M5.34 5.34L3.93 3.93"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">Build Thủ Công</div>
+        <div class="tool-desc">Tự chọn, kiểm tra tương thích</div>
+      </div>
+    </a>
+
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-purple">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#7c3aed"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">FPS Calculator</div>
+        <div class="tool-desc">Ước tính FPS theo cấu hình</div>
+      </div>
+    </a>
+
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-green">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#059669"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">So Sánh</div>
+        <div class="tool-desc">So sánh hiệu năng sản phẩm</div>
+      </div>
+    </a>
+
+    <a href="#" class="tool-card">
+      <div class="tool-icon bg-red">
+        <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="#dc2626"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+      </div>
+      <div class="tool-text">
+        <div class="tool-name">Khuyến Mãi Hot</div>
+        <div class="tool-desc">Deal giá tốt mỗi ngày</div>
+      </div>
+    </a>
+
+  </aside>
+</div><!-- end main-layout -->
+
+
+<div class="modal-overlay" id="loginModal">
+  <div class="modal-box">
+
+    <button class="modal-close" id="modalClose">✕</button>
+
+    <div class="modal-logo">PC<span>ZONE</span></div>
+    <p class="modal-sub">Đăng nhập để tiếp tục mua sắm</p>
+
+    <div id="loginError" class="login-error" style="display:none"></div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" id="loginEmail" placeholder="email@example.com">
+    </div>
+
+    <div class="form-group">
+      <label>Mật khẩu</label>
+      <input type="password" id="loginPassword" placeholder="••••••••">
+    </div>
+
+    <button class="btn-login" id="loginBtn">Đăng nhập</button>
+
+    <p class="modal-note">Chưa có tài khoản? <a href="#">Đăng ký ngay</a></p>
+
+    <div class="test-hint">
+      <strong>Tài khoản thử:</strong><br>
+      👤 admin@pczone.vn / admin123 → Admin<br>
+      👤 user@pczone.vn / user123 → Khách hàng
+    </div>
+
+  </div>
+</div>
+
+<div class="giao-dien-chinh">
+  <main class="vung-noi-dung-chinh">
+
+    <section class="khu-vuc-danh-muc">
+      <div class="thanh-tieu-de-section">
+        <h2 class="tieu-de-section">🔥 Danh mục nổi bật</h2>
+      </div>
+      
+      <div class="luoi-danh-muc-tnc">
+        <a href="#" class="o-danh-muc-tnc">
+          <div class="hinh-thang-da-sac"></div>
+          <div class="noi-dung-danh-muc">
+            <h4 class="ten-danh-muc-tnc">PC GAMING</h4>
+            <p class="mo-ta-danh-muc-tnc">Mua ngay - Giá đang rẻ</p>
+            <img src="https://npcshop.vn/media/product/250-10376-case-phanteks-evolv-x2-matte-white01.jpeg" alt="PC Gaming" class="anh-danh-muc-tnc">
+          </div>
+        </a>
+
+        <a href="#" class="o-danh-muc-tnc">
+          <div class="hinh-thang-da-sac"></div>
+          <div class="noi-dung-danh-muc">
+            <h4 class="ten-danh-muc-tnc">PC ĐỒ HỌA AI</h4>
+            <p class="mo-ta-danh-muc-tnc">Tối ưu công việc - Tối thiểu giá thành</p>
+            <img src="https://product.hstatic.net/200000724631/product/1666138916-h5-flow-hero-black_f6eb2a31ac164de989b16d1060062bbe_master.png" alt="PC do hoa" class="anh-danh-muc-tnc">
+          </div>
+        </a>
+
+        <a href="#" class="o-danh-muc-tnc">
+          <div class="hinh-thang-da-sac"></div>
+          <div class="noi-dung-danh-muc">
+            <h4 class="ten-danh-muc-tnc">MÀN HÌNH MÁY TÍNH</h4>
+            <p class="mo-ta-danh-muc-tnc">Thế giới màn hình giá rẻ</p>
+            <img src="https://subpng.com/images/high/spacecraft-monitor-display-a-o-c-irnjpyqkqiu816qr.webp" alt="Man hinh" class="anh-danh-muc-tnc">
+          </div>
+        </a>
+
+        <a href="#" class="o-danh-muc-tnc">
+          <div class="hinh-thang-da-sac"></div>
+          <div class="noi-dung-danh-muc">
+            <h4 class="ten-danh-muc-tnc">VGA - CARD MÀN HÌNH</h4>
+            <p class="mo-ta-danh-muc-tnc">Tổng kho VGA rẻ nhất Hà Nội</p>
+            <img src="https://asset.msi.com/resize/image/global/product/product_1737081391df0edd81daeead5bd52c24e71abeae13.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png" alt="Card do hoa" class="anh-danh-muc-tnc">
+          </div>
+        </a>
+
+        <a href="#" class="o-danh-muc-tnc">
+          <div class="hinh-thang-da-sac"></div>
+          <div class="noi-dung-danh-muc">
+            <h4 class="ten-danh-muc-tnc">LAPTOP GAMING</h4>
+            <p class="mo-ta-danh-muc-tnc">Giá rẻ - Cấu hình khủng</p>
+            <img src="https://dlcdnwebimgs.asus.com/gain/BCAD66DB-F343-4722-AEDF-E8B3E2326362/w1000/h732" alt="Laptop" class="anh-danh-muc-tnc">
+          </div>
+        </a>
+
+        <a href="#" class="o-danh-muc-tnc">
+          <div class="hinh-thang-da-sac"></div>
+          <div class="noi-dung-danh-muc">
+            <h4 class="ten-danh-muc-tnc">MÁY CHƠI GAME PS5</h4>
+            <p class="mo-ta-danh-muc-tnc">Chính hãng - Giá rẻ - Bảo hành 1 đổi 1</p>
+            <img src="https://wallpapers.com/images/featured/ps5-console-png-ywbv2gv3gfw23o3w.jpg" alt="May PS5" class="anh-danh-muc-tnc">
+          </div>
+        </a>
+
+        <a href="#" class="o-danh-muc-tnc">
+          <div class="hinh-thang-da-sac"></div>
+          <div class="noi-dung-danh-muc">
+            <h4 class="ten-danh-muc-tnc">PHỤ KIỆN MÁY TÍNH</h4>
+            <p class="mo-ta-danh-muc-tnc">Giá rẻ - Chơi game tuyệt đỉnh</p>
+            <img src="https://thecoopidea.com/cdn/shop/products/HK_Keyboard_Mouse.png?v=1627291859&width=2048" alt="May Nintendo" class="anh-danh-muc-tnc">
+          </div>
+        </a>
+
+        <a href="#" class="o-danh-muc-tnc">
+          <div class="hinh-thang-da-sac"></div>
+          <div class="noi-dung-danh-muc">
+            <h4 class="ten-danh-muc-tnc">GHẾ GAMING</h4>
+            <p class="mo-ta-danh-muc-tnc">Rẻ, hiện đại, tối ưu công năng</p>
+            <img src="https://png.pngtree.com/png-vector/20240822/ourmid/pngtree-black-office-gaming-chair-png-image_13462000.png" alt="Ghe" class="anh-danh-muc-tnc">
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="khu-vuc-chuyen-biet">
+      <div class="thanh-tieu-de-section duong-gach-duoi">
+        <h2 class="tieu-de-section">LAPTOP - MÁY TÍNH XÁCH TAY NỔI BẬT</h2>
+        <a href="#" class="xem-tat-ca">Xem tất cả →</a>
+      </div>
+
+      <div class="khung-noi-dung-chuyen-biet">
+        <div class="banner-quang-cao-trai">
+          <div class="hinh-thang-nghieng-banner"></div>
+          <div class="chu-banner">
+            <h3 class="chu-chinh-banner">LAPTOP</h3>
+            <a href="#" class="nut-xem-them-banner">XEM THÊM</a>
+          </div>
+          <img src="https://via.placeholder.com/200x250" alt="Laptop Banner" class="anh-quang-cao-banner">
+        </div>
+
+        <div class="luoi-san-pham-doc-lap">
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung">
+              <img src="https://via.placeholder.com/140" alt="Laptop Dell" class="anh-san-pham-dung">
+            </div>
+            <div class="vung-thong-so-ky-thuat">
+              <div class="dong-thong-so"><span>📟 R5 7520U</span><span>🖥️ 15.6" FHD</span></div>
+              <div class="dong-thong-so"><span>💾 8GB</span><span>💽 512GB</span></div>
+            </div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Laptop Dell Pro 15 Essential PV15255 Ryzen 5</h4>
+              <p class="gia-goc-dung">13.990.000đ</p>
+              <div class="hang-gia-ban">
+                <span class="gia-khuyen-mai-dung">12.990.000đ</span>
+                <span class="phan-tram-giam">-8%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung">
+              <img src="https://via.placeholder.com/140" alt="Laptop Dell" class="anh-san-pham-dung">
+            </div>
+            <div class="vung-thong-so-ky-thuat">
+              <div class="dong-thong-so"><span>📟 i3-1315U</span><span>🖥️ 13.3" FHD</span></div>
+              <div class="dong-thong-so"><span>💾 8GB</span><span>💽 256GB</span></div>
+            </div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Laptop Dell Latitude 3340 L3340187823EXC Core i3</h4>
+              <p class="gia-goc-dung">13.590.000đ</p>
+              <div class="hang-gia-ban">
+                <span class="gia-khuyen-mai-dung">12.990.000đ</span>
+                <span class="phan-tram-giam">-5%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung">
+              <img src="https://via.placeholder.com/140" alt="Laptop Dell" class="anh-san-pham-dung">
+            </div>
+            <div class="vung-thong-so-ky-thuat">
+              <div class="dong-thong-so"><span>📟 Core 5 120U</span><span>🖥️ 16" FHD</span></div>
+              <div class="dong-thong-so"><span>💾 8GB</span><span>💽 512GB</span></div>
+            </div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Laptop Dell 16 DC16251 LDC16251-5506SLV-PUS</h4>
+              <p class="gia-goc-dung">18.690.000đ</p>
+              <div class="hang-gia-ban">
+                <span class="gia-khuyen-mai-dung">17.390.000đ</span>
+                <span class="phan-tram-giam">-7%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung">
+              <img src="https://via.placeholder.com/140" alt="Laptop Dell" class="anh-san-pham-dung">
+            </div>
+            <div class="vung-thong-so-ky-thuat">
+              <div class="dong-thong-so"><span>📟 i5-1334U</span><span>🖥️ 15.6" FHD</span></div>
+              <div class="dong-thong-so"><span>💾 8GB</span><span>💽 512GB</span></div>
+            </div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Laptop Dell 15 DC15250 LDC15250-5315BLK Core i5</h4>
+              <p class="gia-goc-dung">15.490.000đ</p>
+              <div class="hang-gia-ban">
+                <span class="gia-khuyen-mai-dung">14.990.000đ</span>
+                <span class="phan-tram-giam">-4%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="khu-vuc-chuyen-biet">
+      <div class="thanh-tieu-de-section duong-gach-duoi">
+        <h2 class="tieu-de-section">MÀN HÌNH MÁY TÍNH NỔI BẬT</h2>
+        <a href="#" class="xem-tat-ca">Xem tất cả →</a>
+      </div>
+
+      <div class="khung-noi-dung-chuyen-biet">
+        <div class="banner-quang-cao-trai banner-man-hinh">
+          <div class="hinh-thang-nghieng-banner"></div>
+          <div class="chu-banner">
+            <h3 class="chu-chinh-banner">MÀN HÌNH GAMING</h3>
+            <a href="#" class="nut-xem-them-banner">XEM THÊM</a>
+          </div>
+          <img src="https://via.placeholder.com/200x250" alt="Man hinh Banner" class="anh-quang-cao-banner">
+        </div>
+
+        <div class="luoi-san-pham-doc-lap">
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung"><img src="https://via.placeholder.com/140" alt="Man hinh LG" class="anh-san-pham-dung"></div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Màn Hình LG 24U411A-B 24 Inch / IPS / FHD / 120Hz</h4>
+              <p class="gia-goc-dung">2.399.000đ</p>
+              <div class="hang-gia-ban"><span class="gia-khuyen-mai-dung">2.199.000đ</span><span class="phan-tram-giam">-9%</span></div>
+            </div>
+          </div>
+
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung"><img src="https://via.placeholder.com/140" alt="Man hinh Asus" class="anh-san-pham-dung"></div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Màn Hình Gaming Asus ROG Strix XG27ACMES 27 Inch</h4>
+              <p class="gia-goc-dung">7.590.000đ</p>
+              <div class="hang-gia-ban"><span class="gia-khuyen-mai-dung">6.799.000đ</span><span class="phan-tram-giam">-11%</span></div>
+            </div>
+          </div>
+
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung"><img src="https://via.placeholder.com/140" alt="Man hinh UltraWide" class="anh-san-pham-dung"></div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Màn Hình LG UltraWide 29U531A-W 29 Inch / WFHD</h4>
+              <p class="gia-goc-dung">5.390.000đ</p>
+              <div class="hang-gia-ban"><span class="gia-khuyen-mai-dung">4.699.000đ</span><span class="phan-tram-giam">-13%</span></div>
+            </div>
+          </div>
+
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung"><img src="https://via.placeholder.com/140" alt="Man hinh MSI" class="anh-san-pham-dung"></div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Màn Hình MSI MAG 272F X24 27 Inch / IPS / FHD</h4>
+              <p class="gia-goc-dung">4.390.000đ</p>
+              <div class="hang-gia-ban"><span class="gia-khuyen-mai-dung">3.390.000đ</span><span class="phan-tram-giam">-23%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="khu-vuc-chuyen-biet">
+      <div class="thanh-tieu-de-section duong-gach-duoi">
+        <h2 class="tieu-de-section">GAMING GEARS NỔI BẬT</h2>
+        <a href="#" class="xem-tat-ca">Xem tất cả →</a>
+      </div>
+
+      <div class="khung-noi-dung-chuyen-biet">
+        <div class="banner-quang-cao-trai banner-gaming-gear">
+          <div class="hinh-thang-nghieng-banner"></div>
+          <div class="chu-banner">
+            <h3 class="chu-chinh-banner">GAMING GEAR</h3>
+            <a href="#" class="nut-xem-them-banner">XEM THÊM</a>
+          </div>
+          <img src="https://via.placeholder.com/200x250" alt="Gaming Gear Banner" class="anh-quang-cao-banner">
+        </div>
+
+        <div class="luoi-san-pham-doc-lap">
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung"><img src="https://via.placeholder.com/140" alt="Chuot Asus" class="anh-san-pham-dung"></div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Chuột Gaming ASUS ROG Gladius II Core</h4>
+              <p class="gia-goc-dung">899.000đ</p>
+              <div class="hang-gia-ban"><span class="gia-khuyen-mai-dung">699.000đ</span><span class="phan-tram-giam">-23%</span></div>
+            </div>
+          </div>
+
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung"><img src="https://via.placeholder.com/140" alt="Chuot Razer" class="anh-san-pham-dung"></div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Chuột Gaming Razer Viper V3 Pro - Counter-Strike 2</h4>
+              <p class="gia-goc-dung">5.409.000đ</p>
+              <div class="hang-gia-ban"><span class="gia-khuyen-mai-dung">4.099.000đ</span><span class="phan-tram-giam">-26%</span></div>
+            </div>
+          </div>
+
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung"><img src="https://via.placeholder.com/140" alt="Ban phim Razer" class="anh-san-pham-dung"></div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Bàn Phím Cơ Razer Huntsman V3 Pro Tenkeyless</h4>
+              <p class="gia-goc-dung">7.139.000đ</p>
+              <div class="hang-gia-ban"><span class="gia-khuyen-mai-dung">5.559.000đ</span><span class="phan-tram-giam">-23%</span></div>
+            </div>
+          </div>
+
+          <div class="o-san-pham-dung">
+            <div class="nhan-lua-chon">Best Choice</div>
+            <div class="vung-anh-dung"><img src="https://via.placeholder.com/140" alt="Tai nghe Razer" class="anh-san-pham-dung"></div>
+            <div class="vung-chi-tiet-dung">
+              <h4 class="ten-san-pham-dung">Tai Nghe Gaming Razer Blackshark V3 Pro</h4>
+              <p class="gia-goc-dung">9.119.000đ</p>
+              <div class="hang-gia-ban"><span class="gia-khuyen-mai-dung">6.799.000đ</span><span class="phan-tram-giam">-26%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="khu-vuc-san-pham">
+      <div class="thanh-tieu-de-section">
+        <h2 class="tieu-de-section"><span class="bieu-tuong-sao">⭐</span> SẢN PHẨM BÁN CHẠY</h2>
+        <a href="#" class="xem-tat-ca">Xem tất cả →</a>
+      </div>
+
+      <div class="luoi-san-pham">
+        <div class="the-san-pham">
+          <div class="nhan-noi-bat">
+            <span class="cham-tron-nhan">✦</span> BEST SELLER
+          </div>
+          <div class="khung-anh-san-pham">
+            <img src="https://via.placeholder.com/150" alt="VGA Card" class="anh-san-pham">
+          </div>
+          <div class="chi-tiet-san-pham">
+            <h3 class="ten-san-pham">ASUS TUF Gaming RTX 4070 Ti 12GB</h3>
+            <p class="gia-san-pham">28.990.000đ</p>
+            <div class="thong-tin-phu">
+              <span class="diem-danh-gia">⭐ 4.9</span>
+              <span class="luot-mua">(128)</span>
+            </div>
+            <button class="nut-mua-hang">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="the-san-pham">
+          <div class="nhan-noi-bat">
+            <span class="cham-tron-nhan">✦</span> BEST SELLER
+          </div>
+          <div class="khung-anh-san-pham">
+            <img src="https://via.placeholder.com/150" alt="CPU AMD" class="anh-san-pham">
+          </div>
+          <div class="chi-tiet-san-pham">
+            <h3 class="ten-san-pham">AMD Ryzen 7 7800X3D</h3>
+            <p class="gia-san-pham">10.990.000đ</p>
+            <div class="thong-tin-phu">
+              <span class="diem-danh-gia">⭐ 4.9</span>
+              <span class="luot-mua">(96)</span>
+            </div>
+            <button class="nut-mua-hang">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="the-san-pham">
+          <div class="nhan-noi-bat">
+            <span class="cham-tron-nhan">✦</span> BEST SELLER
+          </div>
+          <div class="khung-anh-san-pham">
+            <img src="https://via.placeholder.com/150" alt="Mainboard MSI" class="anh-san-pham">
+          </div>
+          <div class="chi-tiet-san-pham">
+            <h3 class="ten-san-pham">MSI B650 Tomahawk WiFi DDR5</h3>
+            <p class="gia-san-pham">5.890.000đ</p>
+            <div class="thong-tin-phu">
+              <span class="diem-danh-gia">⭐ 4.8</span>
+              <span class="luot-mua">(87)</span>
+            </div>
+            <button class="nut-mua-hang">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+<div class="mega-backdrop" id="megaBackdrop"></div>
+
+<script src="test.js"></script>
 </body>
 </html>
